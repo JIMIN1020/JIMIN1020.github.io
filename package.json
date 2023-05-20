@@ -8,6 +8,9 @@
     "build": "gatsby build",
     "serve": "gatsby serve"
   },
+  "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b deploy"
+  }
   "engines": {
     "node": ">=18.0.0"
   },
