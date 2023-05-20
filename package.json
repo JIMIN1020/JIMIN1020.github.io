@@ -6,11 +6,9 @@
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
-  },
-  "scripts": {
+    "serve": "gatsby serve",
     "deploy": "gatsby build && gh-pages -d public -b deploy"
-  }
+  },
   "engines": {
     "node": ">=18.0.0"
   },
